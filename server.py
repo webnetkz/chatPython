@@ -2,7 +2,7 @@ import socket
 from threading import Thread
 
 new_socket = socket.socket()
-new_socket.bind(('127.0.0.1', 8186))
+new_socket.bind(('127.0.0.1', 5005))
 
 new_socket.listen(2)
 

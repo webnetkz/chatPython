@@ -5,7 +5,7 @@ from threading import Thread
 client_socket = socket.socket()
 #Заставляем его подключиться к серверному сокету
 name = input('Your name: ')
-client_socket.connect(("127.0.0.1", 8186))
+client_socket.connect(("127.0.0.1", 5005))
 #Создаём ф-и отправки и получения сообщений
 def sender():
     while True:
